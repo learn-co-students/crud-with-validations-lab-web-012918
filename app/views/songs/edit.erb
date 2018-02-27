@@ -1,0 +1,21 @@
+<h1>Edit an existing song!</h1>
+
+<%= form_for @song do |f| %>
+
+<p><%= f.label :title %>
+<%= f.text_field :title%></p>
+
+<p><%= f.label :artist_name  %>
+<%= f.text_field :artist_name%></p>
+
+<p><%= f.label :genre  %>
+<%= f.text_field :genre%></p>
+
+<p><%= f.label :released %>
+<%= f.check_box :released, {}, true, false %></p>
+
+<p><%= f.label :release_year %>
+<%= f.number_field :release_year, in: 1900...2100 %></p>
+
+<p><%= f.submit %></p>
+<% end %>
