@@ -1,0 +1,5 @@
+Song.create(title: "Hello", released: true, release_year: 1990, artist_name: "Hello Artist", genre: "pop")
+Song.create(title: "Hello1", released: true, release_year: 1991, artist_name: "Hello Artist1", genre: "pop")
+Song.create(title: "Hello2", released: true, release_year: 1992, artist_name: "Hello Artist2", genre: "pop")
+Song.create(title: "Hello3", released: true, release_year: 1993, artist_name: "Hello Artist3", genre: "pop")
+Song.create(title: "Hello4", released: true, release_year: 1994, artist_name: "Hello Artist4", genre: "pop")
